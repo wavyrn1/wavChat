@@ -12,7 +12,11 @@
 # Commands
 
   get: sends either the next unread message, or "empty" if none is found, to the client
+  
   send <message>: sends <message> to the server
+  
   users: sends a list of online users to the client
+  
   pm <user> <message>: sends <message> to <user> or sends an error message to the client
+  
   exit: exits the server
